@@ -6,7 +6,7 @@ App(
     apptype=FlipperAppType.EXTERNAL,
     entry_point="tetris_app",
     stack_size=2 * 1024,
-    fap_category="Examples",
+    fap_category="Games",
     # Optional values
     # fap_version="0.1",
     fap_icon="tetris.png",  # 10x10 1-bit PNG
