@@ -2,7 +2,7 @@
 
 App(
     appid="tetris",  # Must be unique
-    name="App tetris",  # Displayed in menus
+    name="Tetris",  # Displayed in menus
     apptype=FlipperAppType.EXTERNAL,
     entry_point="tetris_app",
     stack_size=2 * 1024,
@@ -11,7 +11,7 @@ App(
     # fap_version="0.1",
     fap_icon="tetris.png",  # 10x10 1-bit PNG
     # fap_description="A simple app",
-    # fap_author="J. Doe",
-    # fap_weburl="https://github.com/user/tetris",
+    fap_author="Luis Victoria",
+    fap_weburl="https://github.com/lv/flipper-tetris",
     fap_icon_assets="images",  # Image assets to compile for this application
 )
